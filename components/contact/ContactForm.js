@@ -7,7 +7,6 @@ const ContactForm = () => {
 			<form className='tracking-wider  mx-4'>
 				<div className='grid grid-cols-2 items-end'>
 					<div className=' grid gap-3  w-2/3 '>
-                        <h1 className="text-center py-5 text-3xl text-red tracking-widest">Contact Us</h1>
 						<input
 							type='text'
 							name='name'
@@ -30,8 +29,10 @@ const ContactForm = () => {
 							className='form-input '
 						/>
 					</div>
-					<div className='mt-12'>
-						<Image src={vector} alt='' width={200} height={300} />
+					<div className=''>
+						<h1 className='text-center text-4xl text-red tracking-widest  '>
+							Contact Us
+						</h1>
 					</div>
 				</div>
 				<div className='col-span-2 mt-4'>
@@ -43,6 +44,9 @@ const ContactForm = () => {
 						className='form-input w-full'
 					></textarea>
 				</div>
+                <div className="grid justify-items-center py-2">
+                <button className="bg-red btn text-white ">Submit</button>
+                </div>
 			</form>
 		</div>
 	);

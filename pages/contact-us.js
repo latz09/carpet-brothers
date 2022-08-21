@@ -4,7 +4,7 @@ import Hours from '../components/contact/Hours';
 
 const ContactUs = () => {
 	return (
-		<div className='grid lg:grid-cols-2 place-items-center max-w-7xl mx-auto py-12 md:pb-12 md:py-0'>
+		<div className='grid lg:grid-cols-2 place-items-center max-w-7xl mx-auto py-12 '>
 			<div className='grid gap-8'>
 				<ContactInfo />
 				<Hours />
