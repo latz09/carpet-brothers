@@ -4,10 +4,10 @@ import Link from 'next/link';
 const Navbar = () => {
 	return (
 		<div className='py-5 bg-blue'>
-			<div className='grid grid-cols-2 max-w-7xl mx-auto '>
-				<div className=' text-white text-xl font-bold tracking-widest'>
+			<div className='grid grid-cols-3 max-w-7xl mx-auto '>
+				<div className=' col-span-2 text-white text-lg md:text-xl font-bold tracking-widest'>
 					<Link href={'/'}>
-						<a className="flex space-x-2 items-center">
+						<a className='flex space-x-2 items-center'>
 							<span className='text-red font-bold text-3xl'>
 								<RiHomeSmileFill />{' '}
 							</span>
