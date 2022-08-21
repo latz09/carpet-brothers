@@ -18,6 +18,7 @@ const Hero = ({
 					layout='fill'
 					objectFit='cover'
 					objectPosition={positionTo}
+					priority='true'
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-70'>

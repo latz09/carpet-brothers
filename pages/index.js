@@ -33,7 +33,7 @@ export default function Home() {
 			<Hero
 				image={repairHero}
 				positionTo={'center'}
-				linkTo={'/contact'}
+				linkTo={'/contact-us'}
 				heading={'Need a flooring repair?'}
 				subHeading={
 					' sed do eiusmod tempor incididunt ut laboreinterdum posuere'

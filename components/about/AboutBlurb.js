@@ -4,7 +4,7 @@ const AboutBlurb = () => {
 	return (
 		<div className=''>
 			<div className='max-w-4xl mx-auto grid items-center justify-items-center h-[42vh]'>
-				<p className='mx-4 leading-7 text-justify text-gray-700 text-lg font-bold tracking-wider '>
+				<p className='mx-4 leading-8 text-justify text-gray-600 text-lg font-bold tracking-wider '>
 					At{' '}
 					<span className='text-red text-2xl tracking-normal'>
 						Carpet Brothers and Flooring
