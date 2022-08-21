@@ -8,7 +8,7 @@ const ContactUs = () => {
 	return (
 		<div>
 			
-			<div className='grid gap-8 lg:grid-cols-2 place-items-center py-12 '>
+			<div className='grid  lg:grid-cols-2 place-items-center pt-12 '>
 				<div className='grid  gap-8'>
 					<ContactInfo />
 					<Hours />
