@@ -6,6 +6,9 @@
 
 @layer components {
 	.btn {
-		@apply hover:bg-opacity-75 transition duration-700 p-3 md:text-xl shadow-lg ;
+		@apply hover:bg-opacity-75 transition duration-700 p-3 md:text-xl shadow-lg;
+	}
+	.form-input {
+		@apply border border-gray-200   text-gray-700 outline-none  focus:shadow-md focus:ring-gray-300;
 	}
 }

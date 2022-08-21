@@ -3,7 +3,9 @@ import Hero from '../components/utils/Hero';
 import landingHero from '../public/images/logo.jpg';
 import installationHero from '../public/images/kitchen.jpg';
 import repairHero from '../public/images/repair.jpg';
+import { reviews } from '../data/reviews';
 import FlooringExamples from '../components/floorings/FlooringExamples';
+import Reviews from '../components/reviews/Reviews';
 
 export default function Home() {
 	return (
@@ -27,7 +29,7 @@ export default function Home() {
 				}
 				buttonTitle={'Our Work'}
 			/>
-			<div className="mx-2">
+			<div className='mx-2'>
 				<FlooringExamples />
 			</div>
 			<Hero
@@ -40,8 +42,8 @@ export default function Home() {
 				}
 				buttonTitle={'Schedule Consultation'}
 			/>
-			<div className="h-[30vh] py-20 text-center">
-				Reviews...
+			<div className=''>
+				<Reviews data={reviews} />
 			</div>
 		</div>
 	);

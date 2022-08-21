@@ -11,12 +11,13 @@ export const flooring = [
 	},
 	{
 		id: 3,
-		title: 'Vinyle Tile',
-		image: '/images/floorings/vinyle-tile.webp',
+		title: 'Vinyl Tile',
+
+		image: '/images/floorings/vinyle-planking.jpg',
 	},
 	{
 		id: 4,
-		title: 'Vinyle Planking',
-		image: '/images/floorings/vinyle-planking.jpg',
+		title: 'Vinyl Planking',
+		image: '/images/floorings/vinyle-tile.webp',
 	},
 ];

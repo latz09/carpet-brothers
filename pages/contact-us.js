@@ -1,5 +1,19 @@
+import ContactForm from '../components/contact/ContactForm';
+import ContactInfo from '../components/contact/ContactInfo';
+import Hours from '../components/contact/Hours';
+
 const ContactUs = () => {
-    return ( <div className="grid place-content-center text-4xl tracking-widest py-20">Contact Page</div> );
-}
- 
+	return (
+		<div className='grid lg:grid-cols-2 place-items-center max-w-7xl mx-auto py-12 md:pb-12 md:py-0'>
+			<div className='grid gap-8'>
+				<ContactInfo />
+				<Hours />
+			</div>
+			
+				<ContactForm />
+			
+		</div>
+	);
+};
+
 export default ContactUs;
