@@ -1,9 +1,8 @@
-import Image from 'next/image';
-import vector from '../../public/images/vector-image.svg';
+
 
 const ContactForm = () => {
 	return (
-		<div className='w-full '>
+		<div className=' '>
 			<form className='tracking-wider  mx-4'>
 				<div className='grid grid-cols-2 items-end'>
 					<div className=' grid gap-3  w-2/3 '>
@@ -29,11 +28,7 @@ const ContactForm = () => {
 							className='form-input '
 						/>
 					</div>
-					<div className=''>
-						<h1 className='text-center text-4xl text-red tracking-widest  '>
-							Contact Us
-						</h1>
-					</div>
+				
 				</div>
 				<div className='col-span-2 mt-4'>
 					<textarea
