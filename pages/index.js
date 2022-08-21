@@ -40,6 +40,9 @@ export default function Home() {
 				}
 				buttonTitle={'Schedule Consultation'}
 			/>
+			<div className="h-[30vh] py-20 text-center">
+				Reviews...
+			</div>
 		</div>
 	);
 }

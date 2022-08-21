@@ -1,5 +1,7 @@
+import Gallery from "../components/gallery/Gallery";
+
 const OurWork = () => {
-    return ( <div>Gallery will go here</div> );
+    return ( <Gallery /> );
 }
  
-export default OurWork;
+export default OurWork; 
