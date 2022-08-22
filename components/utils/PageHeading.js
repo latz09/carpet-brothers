@@ -1,6 +1,6 @@
 const PageHeading = ({ title }) => {
 	return (
-		<div className="py-8 text-4xl text-center text-gray-500 font-bold tracking-wider ">
+		<div className="py-8 text-4xl text-center text-gray-100 font-bold tracking-widest ">
 			{' '}
 			<h1>{title}</h1>
 		</div>
