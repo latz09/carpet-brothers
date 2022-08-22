@@ -13,7 +13,7 @@ const Navbar = () => {
 							</span>
 							<div className='grid justify-items-center '>
 								<h1>Carpet Brothers</h1>
-								<span className='text-sm text-gray-200'>{`763 283-8472`}</span>
+								<span className='text-sm text-gray-200'>{`(763) 283-8472`}</span>
 							</div>
 						</a>
 					</Link>

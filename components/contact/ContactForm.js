@@ -3,9 +3,9 @@
 const ContactForm = () => {
 	return (
 		<div className=' '>
-			<form className='tracking-wider  mx-4'>
-				<div className='grid grid-cols-2 items-end'>
-					<div className=' grid gap-3  w-2/3 '>
+			<form className='tracking-wider mx-4'>
+				<div className='grid'>
+					<div className='grid gap-3 place-self-center'>
 						<input
 							type='text'
 							name='name'
@@ -30,13 +30,14 @@ const ContactForm = () => {
 					</div>
 				
 				</div>
-				<div className='col-span-2 mt-4'>
+				<div className='mt-4 w-1/2 mx-auto'>
 					<textarea
 						rows='8'
 						name='message'
 						id='message'
 						placeholder='How can we help you?'
-						className='form-input w-full'
+						className='form-input w-full resize-none'
+					
 					></textarea>
 				</div>
                 <div className="grid justify-items-center py-2">
