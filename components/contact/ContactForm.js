@@ -30,7 +30,7 @@ const ContactForm = () => {
 					</div>
 				
 				</div>
-				<div className='mt-4 w-1/2 mx-auto'>
+				<div className='mt-4 md:w-1/2 mx-auto'>
 					<textarea
 						rows='8'
 						name='message'
